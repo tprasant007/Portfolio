@@ -17,4 +17,4 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 
 ## Demo
 
-You can view the live portfolio at [Portfolio](https://tprasant007-portfolio.netlify.app/).
+You can view the live portfolio at [Portfolio](https://tprasant007.github.io/Portfolio/).
