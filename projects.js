@@ -73,11 +73,5 @@ export const projectsArr = [
     image_src: "./images/pokemon-search.png",
     live_demo: "https://tprasant007-pokemon-search.netlify.app/",
     github_repo: "https://github.com/tprasant007/Pokemon-Search-App",
-  },
-  {
-    name: "Random Quote Generator",
-    image_src: "./images/random-quote.png",
-    live_demo: "https://tprasant007-random-quotes-generator.netlify.app/",
-    github_repo: "https://github.com/tprasant007/random-quotes",
-  },
+  }
 ];
