@@ -1,13 +1,31 @@
-import projectsArr from "./projects.js";
+import {skillsArr, projectsArr} from "./projects.js";
 
 const projectsContainer = document.getElementById("projects-container");
 const menuBtn = document.querySelector(".menu-btn");
 const header = document.querySelector("header");
+const skillsContainer = document.querySelector(".skills-slider-container");
 
+let skillDetails = "";
 let projectDetails = "";
 
+// for displaying skills
+skillsArr.forEach(skill => {
+  skillDetails += `
+    <figure class="skills-image flex-column">
+            <img
+              src=${skill.src}
+              alt="skill image"
+              class="skills-image"
+            />
+            <figcaption>${skill.name}</figcaption>
+          </figure>
+  `
+})
+
+skillsContainer.innerHTML = skillDetails;
+
 // for displaying projects
-projectsArr.forEach((project) => {
+projectsArr.forEach(project => {
   projectDetails += `
     <div class="project flex-column">
     <img src=${project.image_src} alt="project" class="project-img">
