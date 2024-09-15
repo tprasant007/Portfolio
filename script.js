@@ -1,6 +1,8 @@
 import projectsArr from "./projects.js";
 
 const projectsContainer = document.getElementById("projects-container");
+const menuBtn = document.querySelector(".menu-btn");
+const header = document.querySelector("header");
 
 let projectDetails = "";
 
@@ -37,3 +39,8 @@ projects.forEach((project) => {
     projectLinks.classList.add("hide-link");
   });
 });
+
+
+menuBtn.onclick = () => {
+  header.classList.toggle("show")
+}
